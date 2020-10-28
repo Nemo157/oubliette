@@ -6,4 +6,19 @@ edition = "2018"
 description = "⋮"
 license = "MIT OR Apache-2.0"
 
+[workspace]
+members = ["cli"]
+
 [dependencies]
+walkdir.version = "2.3.1"
+walkdir.default-features = false
+zstd.version = "0.5.3"
+zstd.default-features = false
+fst.version = "0.4.4"
+fst.default-features = false
+serde.version = "1.0.117"
+serde.default-features = false
+serde.features = ["derive"]
+serde_cbor.version = "0.11.1"
+serde_cbor.default-features = false
+serde_cbor.features = ["std"]
