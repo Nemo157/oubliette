@@ -13,5 +13,5 @@ needing to be discarded to read a specific file (if you can get the archive
 small enough, then instead of doing a remote request to access data it may be
 cheaper to do extra work while reading from it locally).
 
-[Static FileZ](https://github.com/killercup/static-filez)
+[Static FileZ]: https://github.com/killercup/static-filez)
 [Static FileZ: What and Why]: https://github.com/killercup/static-filez#what-and-why
