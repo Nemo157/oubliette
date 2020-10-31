@@ -1,6 +1,6 @@
 # Oubliette
 
-Inspired by @killercup's [Static FileZ][static-filez] this is a library intended
+Inspired by @killercup's [_Static FileZ_][static-filez] this is a library intended
 for producing compressed and archived versions of static file trees, with
 different tradeoffs than most general purpose archive formats.
 
@@ -13,5 +13,5 @@ extraneous data needing to be discarded to read a specific file (if you can get
 the archive small enough, then instead of doing a remote request to access data
 it may be cheaper to do extra work while reading from it locally).
 
-[static-filez]: https://github.com/killercup/static-filez)
+[static-filez]: https://github.com/killercup/static-filez
 [what-and-why]: https://github.com/killercup/static-filez#what-and-why
